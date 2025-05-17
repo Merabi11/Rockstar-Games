@@ -242,8 +242,6 @@ nav {
 }
 
 .second-text {
-  width: 400px;
-  height: 72px;
   font-size: 48px;
   color: #ffffff;
 }
@@ -419,20 +417,26 @@ footer {
 
 .footer-container {
   width: 440px;
-  display: flex;
   margin-left: 180px;
-  justify-content: space-between;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .footer-container img {
   cursor: pointer;
 }
 
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .footer-text-child1 {
-  width: 350px;
-  color: #b1b1b1;
   display: flex;
   justify-content: space-between;
+  color: #b1b1b1;
 }
 
 .footer-text-child1 span {
